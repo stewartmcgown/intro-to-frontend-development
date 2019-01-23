@@ -1,0 +1,87 @@
+<!DOCTYPE html5>
+<html>
+  <head> 
+    <meta charset = 'utf-8'>
+  </head>
+  <header Id = "#header"> 
+  
+    <h1>MentorDevs Stage0 Task!</h1>
+  <!--  <h1> Carpe diem is philosophical </h1> -->
+    <img src = "https://mentordevs.github.io/learning-tasks/assets/adam-solomon-472458-unsplash-500px.jpeg">
+  </header>
+  
+    <body> 
+      <main>
+ I built a form with html5 to get to know you better 😄.
+      <p> It's a simple form. Here is my recommended way of filling it in 3 steps : </p>
+      <ol> 
+      <li> 
+        Read these steps really fast.
+        </li>
+        <li> Realize that you can ignore them.</li>
+        <li> Continue to fill the form however you like.</li>
+      </ol>
+        </main>
+      <form>
+        <fieldset>
+        <legend>Survey form: </legend>
+       
+        <p>
+      What should we call you? </p><br>
+        <input type = "text" placeholder = "enter full name"> 
+        <p> Can we  have your mail? </p> <br> <input type = "text" placeholder = "enter email"> 
+        <p> How old are you? </p><br> <input type = "text" placeholder =  "enter age"> 
+       <p> What is your gender?</p> <br>
+        <label for = "male"> 
+          <input id = "male-female-other" type = "radio" name = "male">
+        Male  </label>
+        <label for = "female"> 
+          <input id = "male-female-other" type = "radio" name = "female"> Female
+          </label>
+        <label for = "other"> 
+          
+          <input id = "male-female-other" type = "radio" name = "other">
+Other          </label> 
+       <p>
+      Are you a programmer? <br>
+        <label for = "yes"> 
+          <input id = "yes-no" type = "checkbox" name = "yes"> Yes
+          </label> 
+        <label for = "no"> 
+          <input id = "yes-no" type = "checkbox" name = "no"> No</p>
+          </label>
+        </p>
+      <p> What is your current mood? </p>
+      <select id = "mood">
+        <option value = "happy"> Happy </option>
+        <option value = "sad"> Sad </option>
+        <option value  ="excited"> Excited </option>
+          
+          </option>
+        
+        </select>
+  <br>
+  <p>
+<button type = "Submit"> Submit form </button> </p>
+      </fieldset>
+      </form>
+      
+<div> 
+      <h2> Random Facts </h2>
+      <ul>
+        <li> 95% of people text things they could never say in public. </li>
+        <li> Honey bees can recognise human face. </li>
+        <li> While trying to find a cure for aids, Mayo Clinic made glow in dark cats. </li>
+          
+        </ul>
+  </div>
+<footer>
+      <a href = "#header">Back to top </a>
+      <p> Thank you for checking out my form. If you want to see more stuff I build, <a href = "https://github.com/ochuwa-sophie">check out my github</a>.
+        
+      </p>
+      PS : The link below does not go anywhere.
+      <p><a href = "#">Dead Link </a>  😢</p> </footer>
+    </body> 
+
+</html>
